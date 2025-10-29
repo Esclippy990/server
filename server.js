@@ -22832,19 +22832,19 @@ var packet = JSON.stringify([
                   if (dim == "dune") {
                     serverURL = 'https://rock-it-8.glitch.me/';
                   } else if (dim == "arena") {
-                    serverURL = 'https://rock-it-1.glitch.me/';
+                    serverURL = 'https://server-vnqi.onrender.com/';
                   } else if (dim == "cavern") {
                     serverURL = 'https://rock-it-7.glitch.me/';
                   } else if (dim == "cr") {
                     serverURL = 'https://rock-it-5.glitch.me/';
                   } else if (dim == "sanc") {
-                    serverURL = 'https://rock-it-4.glitch.me/';
+                    serverURL = 'https://server-2-z5nd.onrender.com/';
                   } else if (dim == "2tdm") {
                     serverURL = 'https://rock-it-3.glitch.me/';
                   } else if (dim == "4tdm") {
                     serverURL = 'https://rock-it-2.glitch.me/';
                   } else if (dim == "editor") {
-                    serverURL = 'https://rock-it-6.glitch.me/';
+                    serverURL = 'https://server-1-7580.onrender.com/';
                   }
                   var packetToMainServer = [
                     player,
