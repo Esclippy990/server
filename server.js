@@ -21678,6 +21678,7 @@ var packet = JSON.stringify([
         "Server rejected your connection. Possible botter. (1)",
         "red",
       ]);
+      console.log(req.headers.origin)
       client.send(packet);
       client.terminate();
     } else if (
