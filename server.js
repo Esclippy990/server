@@ -21666,16 +21666,16 @@ var packet = JSON.stringify([
     //prevent bots and multitab
     //reject websocket connection if header does not meet the requirements
     if (
-      req.headers.origin !== 'https://xd-here.glitch.me' &&
-      req.headers.origin !== 'http://xd-here.glitch.me' &&
-      req.headers.origin !== 'https://sea-peaceful-roxitmotion.glitch.me' &&
-      req.headers.origin !== 'http://sea-peaceful-roxitmotion.glitch.me'
+      req.headers.origin !== 'file:///C:/Users/patel/Downloads/xd-here-2025-07-31_085424/app/index.html' &&
+      req.headers.origin !== '//C:/Users/patel/Downloads/xd-here-2025-07-31_085424/app/index.html' &&
+      req.headers.origin !== '/C:/Users/patel/Downloads/xd-here-2025-07-31_085424/app/index.html' &&
+      req.headers.origin !== 'C:/Users/patel/Downloads/xd-here-2025-07-31_085424/app/index.html'
     ) {
       //must open website with rocketer (but origin header can be edited)
       //kick user
       var packet = JSON.stringify([
         "newNotification",
-        "Server rejected your connection. Possible botter.",
+        "Server rejected your connection. Possible botter. (1)",
         "red",
       ]);
       client.send(packet);
@@ -21688,7 +21688,7 @@ var packet = JSON.stringify([
       //kick user
       var packet = JSON.stringify([
         "newNotification",
-        "Server rejected your connection. Possible botter.",
+        "Server rejected your connection. Possible botter. (2)",
         "red",
       ]);
       client.send(packet);
