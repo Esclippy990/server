@@ -5530,7 +5530,7 @@
                 var serverURL = "";
                 var newlocationname = "";
                 if (newlocation == "dune") {
-                  serverURL = 'https://rock-it-8.glitch.me/';
+                  serverURL = 'https://the-dune.onrender.com/';
                   newlocationname = "the Dune";
                 } else if (newlocation == "arena") {
                   serverURL = 'https://server-vnqi.onrender.com/';
@@ -5545,10 +5545,10 @@
                   serverURL = 'https://server-2-z5nd.onrender.com/';
                   newlocationname = "the Sanctuary";
                 } else if (newlocation == "2tdm") {
-                  serverURL = 'https://rock-it-3.glitch.me/';
+                  serverURL = 'https://two-teams.onrender.com/';
                   newlocationname = "2 Teams";
                 } else if (newlocation == "4tdm") {
-                  serverURL = 'https://rock-it-2.glitch.me/';
+                  serverURL = 'https://four-teams.onrender.com/';
                   newlocationname = "4 Teams";
                 } else if (newlocation == "editor") {
                   serverURL = 'https://server-1-7580.onrender.com/';
@@ -22429,7 +22429,7 @@ var packet = JSON.stringify([
                   if (dim == "dune") {
                     serverURL = 'https://server-vnqi.onrender.com/';
                   } else if (dim == "arena") {
-                    serverURL = 'https://rock-it-1.glitch.me/';
+                    serverURL = 'https://server-vnqi.onrender.com/';
                   } else if (dim == "cavern") {
                     serverURL = 'https://rock-it-7.glitch.me/';
                   } else if (dim == "cr") {
@@ -22437,9 +22437,9 @@ var packet = JSON.stringify([
                   } else if (dim == "sanc") {
                     serverURL = 'https://server-2-z5nd.onrender.com/';
                   } else if (dim == "2tdm") {
-                    serverURL = 'https://rock-it-3.glitch.me/';
+                    serverURL = 'https://two-teams.onrender.com/';
                   } else if (dim == "4tdm") {
-                    serverURL = 'https://rock-it-2.glitch.me/';
+                    serverURL = 'https://four-teams.onrender.com/';
                   } else if (dim == "editor") {
                     serverURL = 'https://server-1-7580.onrender.com/';
                   } else if (dim == "abyssling-home") {
@@ -22830,7 +22830,7 @@ var packet = JSON.stringify([
                 ) {
                   let serverURL = "";
                   if (dim == "dune") {
-                    serverURL = 'https://rock-it-8.glitch.me/';
+                    serverURL = 'https://the-dune.onrender.com/';
                   } else if (dim == "arena") {
                     serverURL = 'https://server-vnqi.onrender.com/';
                   } else if (dim == "cavern") {
@@ -22840,9 +22840,9 @@ var packet = JSON.stringify([
                   } else if (dim == "sanc") {
                     serverURL = 'https://server-2-z5nd.onrender.com/';
                   } else if (dim == "2tdm") {
-                    serverURL = 'https://rock-it-3.glitch.me/';
+                    serverURL = 'https://two-teams.onrender.com/';
                   } else if (dim == "4tdm") {
-                    serverURL = 'https://rock-it-2.glitch.me/';
+                    serverURL = 'https://four-teams.onrender.com/';
                   } else if (dim == "editor") {
                     serverURL = 'https://server-1-7580.onrender.com/';
                   }
