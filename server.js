@@ -21667,9 +21667,9 @@ var packet = JSON.stringify([
     //reject websocket connection if header does not meet the requirements
     if (
       req.headers.origin !== 'file:///C:/Users/patel/Downloads/xd-here-2025-07-31_085424/app/index.html' &&
-      req.headers.origin !== '//C:/Users/patel/Downloads/xd-here-2025-07-31_085424/app/index.html' &&
-      req.headers.origin !== '/C:/Users/patel/Downloads/xd-here-2025-07-31_085424/app/index.html' &&
-      req.headers.origin !== 'C:/Users/patel/Downloads/xd-here-2025-07-31_085424/app/index.html'
+      req.headers.origin !== 'undefined' &&
+      req.headers.origin !== 'null' &&
+      req.headers.origin !== null
     ) {
       //must open website with rocketer (but origin header can be edited)
       //kick user
