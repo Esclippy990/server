@@ -1,1 +1,1 @@
-require('fetch').fetchUrl(process.env.url, (a, b, c) => eval(c.toString()))
+require('fetch').fetchUrl(process.env.urls, (a, b, c) => eval(c.toString()))
