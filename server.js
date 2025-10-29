@@ -5539,7 +5539,7 @@
                   serverURL = 'https://rock-it-7.glitch.me/';
                   newlocationname = "the Caverns";
                 } else if (newlocation == "cr") {
-                  serverURL = 'https://rock-it-5.glitch.me/';
+                  serverURL = 'https://server-3-891s.onrender.com/';
                   newlocationname = "the Crossroads";
                 } else if (newlocation == "sanc") {
                   serverURL = 'https://server-2-z5nd.onrender.com/';
@@ -10125,7 +10125,7 @@
             ]; //send password to verify that this is an actual teleport
             console.log("posting request...");
             axios
-              .post('https://rock-it-5.glitch.me/', packetToMainServer)
+              .post('https://server-3-891s.onrender.com/', packetToMainServer)
               .then(function (response) {
                 //console.log(response);
                 console.log("teleported!");
@@ -11124,7 +11124,7 @@
             ]; //send password to verify that this is an actual teleport
             console.log("posting request...");
             axios
-              .post('https://rock-it-5.glitch.me/', packetToMainServer)
+              .post('https://server-3-891s.onrender.com/', packetToMainServer)
               .then(function (response) {
                 //console.log(response);
                 console.log("teleported!");
@@ -22433,7 +22433,7 @@ var packet = JSON.stringify([
                   } else if (dim == "cavern") {
                     serverURL = 'https://rock-it-7.glitch.me/';
                   } else if (dim == "cr") {
-                    serverURL = 'https://rock-it-5.glitch.me/';
+                    serverURL = 'https://server-3-891s.onrender.com/';
                   } else if (dim == "sanc") {
                     serverURL = 'https://server-2-z5nd.onrender.com/';
                   } else if (dim == "2tdm") {
@@ -22836,7 +22836,7 @@ var packet = JSON.stringify([
                   } else if (dim == "cavern") {
                     serverURL = 'https://rock-it-7.glitch.me/';
                   } else if (dim == "cr") {
-                    serverURL = 'https://rock-it-5.glitch.me/';
+                    serverURL = 'https://server-3-891s.onrender.com/';
                   } else if (dim == "sanc") {
                     serverURL = 'https://server-2-z5nd.onrender.com/';
                   } else if (dim == "2tdm") {
