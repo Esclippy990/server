@@ -5536,7 +5536,7 @@
                   serverURL = 'https://server-vnqi.onrender.com/';
                   newlocationname = "the Arena";
                 } else if (newlocation == "cavern") {
-                  serverURL = 'https://rock-it-7.glitch.me/';
+                  serverURL = 'https://cavern-2tvb.onrender.com/';
                   newlocationname = "the Caverns";
                 } else if (newlocation == "cr") {
                   serverURL = 'https://server-3-891s.onrender.com/';
@@ -22431,7 +22431,7 @@ var packet = JSON.stringify([
                   } else if (dim == "arena") {
                     serverURL = 'https://server-vnqi.onrender.com/';
                   } else if (dim == "cavern") {
-                    serverURL = 'https://rock-it-7.glitch.me/';
+                    serverURL = 'https://cavern-2tvb.onrender.com/';
                   } else if (dim == "cr") {
                     serverURL = 'https://server-3-891s.onrender.com/';
                   } else if (dim == "sanc") {
@@ -22834,7 +22834,7 @@ var packet = JSON.stringify([
                   } else if (dim == "arena") {
                     serverURL = 'https://server-vnqi.onrender.com/';
                   } else if (dim == "cavern") {
-                    serverURL = 'https://rock-it-7.glitch.me/';
+                    serverURL = 'https://cavern-2tvb.onrender.com/';
                   } else if (dim == "cr") {
                     serverURL = 'https://server-3-891s.onrender.com/';
                   } else if (dim == "sanc") {
