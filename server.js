@@ -11701,8 +11701,8 @@
           if (
             DistanceBetween <=
               players[playerId].width + enterCrPortal[id].width / 2 &&
-            !enterCrPortal[id].sending.includes(playerId) &&
-            players[playerId].level >= 60
+            !enterCrPortal[id].sending.includes(playerId)/* &&
+            players[playerId].level >= 60*/
           ) {
             //crashed
             /*
@@ -26570,7 +26570,7 @@ var packet = JSON.stringify([
 
           //only for sanc
           if (gamemode == "sanc") {
-            if (players[playerID].team != "eternal") {
+            if (players[playerID].team != "eternal" && players[playerID].level >= 60) { // omg
               //if teleported to sanctuary, AND player is not an eternal
               //ETERNAL
               players[playerID].color = "#934c93";
