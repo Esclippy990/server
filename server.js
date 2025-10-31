@@ -5495,8 +5495,7 @@
             playerlist[id].width + portallist[portalId].width
           ) {
             //crashed with portal
-            //portallist[portalId].peopleTouch++;
-            portallist[portalId].width += 3;
+            portallist[portalId].peopleTouch++;
             //add to list of players that crashed
             portallist[portalId].newList.push(id);
             //move player towards center of portal
