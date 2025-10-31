@@ -5495,12 +5495,13 @@
             playerlist[id].width + portallist[portalId].width
           ) {
             //crashed with portal
-            portallist[portalId].peopleTouch++;
+            //portallist[portalId].peopleTouch++;
+            portallist[portalId].width += 3;
             //add to list of players that crashed
             portallist[portalId].newList.push(id);
             //move player towards center of portal
             var stepWidthFactor = 15; //this number MUST be more or equal to one. The HIGHER the number, the SLOWER the player is sucked into the center of the portal
-            var sizeOfHitBox = 0.5; //size of area in center of portal which player need to touch in order to teleport
+            var sizeOfHitBox = 1; //size of area in center of portal which player need to touch in order to teleport
             if (
               Math.abs(playerlist[id].x - portallist[portalId].x) >
                 sizeOfHitBox ||
