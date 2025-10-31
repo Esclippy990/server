@@ -11726,7 +11726,7 @@
             ]; //send password to verify that this is an actual teleport
             console.log("posting request...");
             axios
-              .post('https://rock-it-4.glitch.me/', packetToMainServer)
+              .post('https://server-2-z5nd.onrender.com/', packetToMainServer)
               .then(function (response) {
                 //console.log(response);
                 console.log("teleported!");
